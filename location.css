@@ -1,0 +1,53 @@
+/*Location Page*/
+.festival {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    Padding: 40 px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.festival h1 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}   
+
+
+.location img {
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    width: 100%;               
+    height: 550px;             
+    object-fit: cover;         
+  }
+
+.location p, .location figcaption{
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .festival {
+     grid-template-columns: 1fr;
+    }   
+ }
+
+.locations, .Festival {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;   
+}
+
+.navigation {
+    flex: 1; 
+}

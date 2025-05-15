@@ -1,0 +1,36 @@
+.events {
+        padding: 0;
+    border-radius: 0;
+    flex: 1; 
+    margin: 0;
+}
+
+.div1, .div4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    text-align: center;
+    padding: 0;
+    justify-content: center;
+}
+
+.event img {
+   padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.event p{
+    font-weight: bold;
+}
+.event figcaption{
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .div1, .div4 {
+     grid-template-columns: 1fr;
+    } 
+ }

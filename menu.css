@@ -1,0 +1,57 @@
+/*Menu Page*/
+.menu h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+
+ .table {
+   color: white; 
+   text-align: center;
+   margin: 0 auto;
+   width: 500px;
+   padding: 0;
+   
+}  
+.main  {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    flex: 1; 
+ }
+.entree {
+    color: black;
+    background-color: rgb(224, 224, 55);
+}
+
+.appetizer {
+    background-color: rgb(255, 230, 0);
+}
+
+.dessert {
+    background-color: rgb(224, 224, 55);
+}
+
+tr:hover {
+    background-color:rgb(82, 255, 47);
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.image1 img {
+  max-width: 100%;
+  height: 550px;
+  display: block;
+}
+
