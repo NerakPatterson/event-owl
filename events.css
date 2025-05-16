@@ -7,18 +7,23 @@
 
 .div1, .div4 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: white;
-    text-align: center;
-    padding: 0;
-    justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
-
+.event {
+        padding: 1rem;
+  box-sizing: border-box;
+}
 .event img {
-   padding: 0;
-    margin: 0;
-    display: block;
-        align-items: center;
+   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .event p{
