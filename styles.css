@@ -143,7 +143,9 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   overflow-x: hidden;
-}
+  margin: 0;
+  padding: 0;
+ }
 
 
 .featured a:hover {
