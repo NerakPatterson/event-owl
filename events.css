@@ -26,12 +26,7 @@
   box-sizing: border-box;
 }
 
-.event img {
-   width: 100%;
-    height: auto;
-    object-fit: cover; 
-    display: block;
-}
+
 
 
 .event figcaption .event p{
@@ -39,11 +34,6 @@
     margin: 0.5rem 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 .container, .events, .div1, .div4 {
   width: 100%;
