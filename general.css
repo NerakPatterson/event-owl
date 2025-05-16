@@ -34,6 +34,8 @@ nav ul li a {
   color: white;
   font-weight: bold;
   font-size: 24px;
+  font-size: clamp(18px, 2.5vw, 20px); 
+  box-sizing: border-box;
 }
 
 nav ul li a:hover {
@@ -45,7 +47,6 @@ body {
   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240104/pngtree-elegant-damask-seamless-pattern-a-classic-luxurious-and-timeless-old-fashioned-image_13903714.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment:
   margin: 0;
   padding: 0;
   display: flex;
