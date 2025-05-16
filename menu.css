@@ -2,6 +2,7 @@
 .menu h1, .menu h2 {
     color: white;
     text-align: center;
+    justify-content: center;
     width: 100%;
     margin: 0;
     padding: 0;
